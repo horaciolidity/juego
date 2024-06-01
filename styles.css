@@ -22,8 +22,12 @@
   cursor: pointer;
 }
 
-.card.flipped {
-  background-color: #fff;
+.card .symbol {
+  visibility: hidden;
+}
+
+.card.flipped .symbol {
+  visibility: visible;
 }
 
 .hidden {
