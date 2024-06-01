@@ -23,7 +23,7 @@ function generateCards() {
     const card = document.createElement('div');
     card.classList.add('card');
     card.dataset.symbol = symbol;
-    card.innerHTML = `<span class="hidden">${symbol}</span>`;
+    card.innerHTML = `<span class="symbol">${symbol}</span>`;
     cardsContainer.appendChild(card);
   });
 }
