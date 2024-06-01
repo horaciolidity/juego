@@ -2,8 +2,8 @@ const cardsContainer = document.getElementById('cards');
 let flippedCards = [];
 let matchedPairs = 0;
 
-// Array of symbols for the cards
-const symbols = ['🐱', '🐶', '🐭', '🐹', '🐰', '🦊', '🐻', '🐼'];
+// Array of symbols for the cards (con códigos Unicode)
+const symbols = ['\uD83D\uDC31', '\uD83D\uDC36', '\uD83D\uDC2D', '\uD83D\uDC39', '\uD83D\uDC30', '\uD83E\uDD8A', '\uD83D\uDC3B', '\uD83D\uDC3C'];
 
 // Duplicate symbols to create pairs
 const symbolsPair = symbols.concat(symbols);
